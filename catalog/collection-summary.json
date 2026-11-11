@@ -1,0 +1,33 @@
+{
+  "repository": "Animated-Cursor-Library",
+  "generated": "2026-11-12",
+  "totals": {
+    "collections": 3,
+    "themes": 26,
+    "ani_files": 415
+  },
+  "collections": [
+    {
+      "id": "glow-cursor-forge-16-themes",
+      "name": "Glow Cursor Forge · 16 Themes",
+      "themes": 16,
+      "ani_files": 240,
+      "reference": "https://01a1cc83-38e3-7b7d-baeb-71ddbce0c760.arena.site/"
+    },
+    {
+      "id": "glowcursors-5-themes",
+      "name": "GlowCursors · 5 Themes",
+      "themes": 5,
+      "ani_files": 75,
+      "reference": "https://01a1cc5a-9188-7399-bb27-6279ce3926ee.arena.site/"
+    },
+    {
+      "id": "neonpulse-5-themes",
+      "name": "Neon Pulse · 5 Themes",
+      "themes": 5,
+      "ani_files": 100,
+      "reference": null
+    }
+  ],
+  "validation_note": "Counts reflect local extraction and validation of supplied archives."
+}
