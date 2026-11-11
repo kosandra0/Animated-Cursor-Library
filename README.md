@@ -2,7 +2,7 @@
 
 A curated Windows animated-cursor library containing three separately maintained collections, installation tools, previews, inventories, reference-generator links, and format documentation.
 
-> **Catalog assembled locally:** 415 animated `.ani` files across 26 theme folders in three collections.
+> **Local collection prepared:** 415 animated `.ani` files across 26 theme folders in three collections. **Important:** the GitHub repository currently contains the documentation and reference links; the three binary ZIP downloads are not yet committed. See [BINARY-ASSET-UPLOAD.md](BINARY-ASSET-UPLOAD.md) for the exact upload steps.
 
 ## Collections
 
