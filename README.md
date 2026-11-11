@@ -68,6 +68,8 @@ It checks RIFF/ACON signatures, declared lengths, ANI header chunks, expected co
 
 The supplied archives did not include a clear redistribution license covering every cursor asset and installer. No blanket open-source license is applied to these assets. Review [LICENSE-NOTICE.md](LICENSE-NOTICE.md) and [asset provenance](docs/ASSET-PROVENANCE.md) before public redistribution or commercial use.
 
+> **Publishing status (12 November 2026):** The GitHub repository is created and currently contains the documentation, reference notes, catalog summary, and sync helpers. The binary cursor assets (415 ANI files, ZIP/RAR archives, and preview PNGs) are still in the companion local bundle and have not yet been uploaded through the connector. Run [SYNC-TO-GITHUB.bat](SYNC-TO-GITHUB.bat) from the extracted bundle on Windows to push the complete binary library to this existing repository.
+
 ## Full-pack sync
 
 The GitHub web connector can commit documentation but does not directly transfer local binary files. To publish the complete local bundle, extract the accompanying repository package and run `SYNC-TO-GITHUB.bat` on Windows with Git and GitHub CLI installed and authenticated. The script copies the entire local repository (including ANI files, ZIPs, previews, and RAR originals) into this already-created GitHub repository and pushes it. It does not create a second repository.
