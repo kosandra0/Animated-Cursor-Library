@@ -115,7 +115,7 @@ The package reports successful structural validation for all 360 ANI and 360 CUR
 | Separate ZIP collections | 4 |
 | Theme folders across packs | 46 |
 | Animated ANI files | 775 |
-| Static CUR files | 360 |
+| Static CUR files documented in QUIETFORM | 360 |
 | CUR fallback files are included in | QUIETFORM only |
 
-The 15-role, 20-role and 18-role inventories are specific to each collection; totals are not a promise that every role exists in every pack.
+The 15-role, 20-role and 18-role inventories are specific to each collection; totals are not a promise that every role exists in every pack. The 360 CUR files are verified in the QUIETFORM archive; the other three archives' CUR contents have not been separately inventoried.
