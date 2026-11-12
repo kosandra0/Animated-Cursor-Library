@@ -8,13 +8,13 @@ A curated library of animated Windows cursor collections, with four downloadable
 
 | Collection | Themes | Animated ANI files | Static CUR files | Design direction |
 |---|---:|---:|---:|---|
-| Glow Cursor Forge | 16 | 240 | — | Neon, glow and colourful animated themes |
-| GlowCursors | 5 | 75 | — | Compact subset of the GlowCursors generator themes |
-| Neon Pulse | 5 | 100 | — | Neon palette with extra application-oriented cursor roles |
+| Glow Cursor Forge | 16 | 240 | Not inventoried | Neon, glow and colourful animated themes |
+| GlowCursors | 5 | 75 | Not inventoried | Compact subset of the GlowCursors generator themes |
+| Neon Pulse | 5 | 100 | Not inventoried | Neon palette with extra application-oriented cursor roles |
 | QUIETFORM | 20 | 360 | 360 | Minimal, neutral, professional and subtly animated |
 | **Total** | **46** | **775** | **360** | Four separate collections |
 
-The counts above refer to the supplied archives and their documented inventories. The 360 static `.cur` files belong to QUIETFORM; the other three packs are catalogued by their supplied ANI counts.
+The counts above refer to the supplied archives and their documented inventories. The 360 static `.cur` files are confirmed in QUIETFORM. The other three archives are catalogued by their supplied ANI counts; their `.cur` contents, if any, have not been separately inventoried.
 
 ---
 
