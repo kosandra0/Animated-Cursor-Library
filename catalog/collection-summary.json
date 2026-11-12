@@ -2,32 +2,66 @@
   "repository": "Animated-Cursor-Library",
   "generated": "2026-11-12",
   "totals": {
-    "collections": 3,
-    "themes": 26,
-    "ani_files": 415
+    "collections": 4,
+    "theme_folders": 46,
+    "ani_files": 775,
+    "cur_files": 360,
+    "downloadable_zip_archives": 4
   },
   "collections": [
     {
       "id": "glow-cursor-forge-16-themes",
       "name": "Glow Cursor Forge · 16 Themes",
+      "archive": "Glow-Cursor-Forge-16-Themes.zip",
+      "archive_bytes": 22131398,
       "themes": 16,
       "ani_files": 240,
+      "cur_files": 0,
+      "roles_per_theme": 15,
       "reference": "https://01a1cc83-38e3-7b7d-baeb-71ddbce0c760.arena.site/"
     },
     {
       "id": "glowcursors-5-themes",
       "name": "GlowCursors · 5 Themes",
+      "archive": "GlowCursors-5-Themes.zip",
+      "archive_bytes": 3751130,
       "themes": 5,
       "ani_files": 75,
-      "reference": "https://01a1cc5a-9188-7399-bb27-6279ce3926ee.arena.site/"
+      "cur_files": 0,
+      "roles_per_theme": 15,
+      "reference": "https://01a1cc5a-9188-7399-bb27-6279ce3926ee.arena.site/",
+      "note": "Five-theme subset of a six-theme generator."
     },
     {
       "id": "neonpulse-5-themes",
       "name": "Neon Pulse · 5 Themes",
+      "archive": "NeonPulse-5-Themes.zip",
+      "archive_bytes": 4864633,
       "themes": 5,
       "ani_files": 100,
+      "cur_files": 0,
+      "roles_per_theme": 20,
       "reference": null
+    },
+    {
+      "id": "quietform-20-professional-themes",
+      "name": "QUIETFORM · 20 Professional Themes",
+      "archive": "QUIETFORM_Download.zip",
+      "archive_bytes": 13138925,
+      "archive_sha256": "4d2f06adab5fadf6d5f27ae9233028919a7992058e8e4381be741ce4cf357689",
+      "themes": 20,
+      "ani_files": 360,
+      "cur_files": 360,
+      "roles_per_theme": 18,
+      "frames": 2448,
+      "sizes_px": [
+        32,
+        48,
+        64
+      ],
+      "reference": null,
+      "validation_note": "Package reports structural validation for all 360 ANI and 360 CUR files; no physical Windows runtime test is claimed."
     }
   ],
-  "validation_note": "Counts reflect local extraction and validation of supplied archives."
+  "validation_note": "Counts reflect the inventories of the four supplied ZIP archives. QUIETFORM CUR files are static alternatives and are not included in the ANI total."
 }
