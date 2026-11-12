@@ -1,30 +1,46 @@
 # Publishing status
 
-## Live repository
-https://github.com/kosandra0/Animated-Cursor-Library
+**Repository:** https://github.com/kosandra0/Animated-Cursor-Library  
+**Default branch:** `main`  
+**Documentation update:** 12 November 2026
 
-The public repository and its documentation are live on `main`. The actual cursor archives and ANI assets are **not** yet present in the GitHub repository.
+## Current state
 
-## Why the binary files are still missing
-The connected GitHub actions can create and update UTF-8 text files, but they do not expose an upload operation that transfers local binary files from the ChatGPT working container. The browser-based GitHub release upload was also attempted, but the browser session could not access the files attached to this conversation. No empty release was published.
+The repository documentation now covers four cursor collections:
 
-## Files prepared in the companion bundle
-The local bundle contains the three complete ZIP packages, original RAR source archives, extracted ANI assets, previews, inventories, checksums, and a sync helper. Each ZIP was CRC-tested and the two RAR uploads were SHA-256 matched to the source RARs already in the bundle.
+1. Glow Cursor Forge — 16 themes / 240 ANI files.
+2. GlowCursors — 5 themes / 75 ANI files.
+3. Neon Pulse — 5 themes / 100 ANI files.
+4. QUIETFORM — 20 themes / 360 ANI files / 360 CUR alternatives.
 
-## Complete the upload on Windows
-1. Extract the companion `Animated-Cursor-Library-Repository.zip`.
-2. Install Git for Windows and GitHub CLI if they are not already installed.
-3. Run `gh auth login` and authenticate as `kosandra0`.
-4. Double-click `SYNC-TO-GITHUB.bat` inside the extracted `Animated-Cursor-Library` folder.
-5. Type `SYNC` at the confirmation prompt.
+The documented aggregate inventory is 4 collections, 46 theme folders, 775 animated ANI files and 360 static CUR alternatives. The CUR alternatives are contained in QUIETFORM.
 
-The helper clones the existing repository, copies all local assets and documentation, and pushes them to `main`. It does not create a second repository.
+The root README, downloads index, collection guide, cursor-role reference, collection summary, provenance note, changelog, upload instructions and QUIETFORM technical notes have been updated.
 
-For a manual browser upload, see [BINARY-ASSET-UPLOAD.md](BINARY-ASSET-UPLOAD.md).
+## Binary upload is still pending
 
+**The four ZIP archives are not being uploaded by this documentation update.** The repository maintainer will upload the four archive files manually to `downloads/`:
 
-The GitHub repository has been created at https://github.com/kosandra0/Animated-Cursor-Library on the `main` branch.
+- `Glow-Cursor-Forge-16-Themes.zip`
+- `GlowCursors-5-Themes.zip`
+- `NeonPulse-5-Themes.zip`
+- `QUIETFORM_Download.zip`
 
-The GitHub connector used for this initial repository setup can commit UTF-8 documentation and metadata, but it does not expose a direct upload operation for local binary files. The complete local bundle contains 415 ANI files, ZIP archives, preview PNGs, and original RAR files. Those binary assets must be pushed from the extracted bundle using Git/GitHub CLI.
+Use the [GitHub downloads upload page](https://github.com/kosandra0/Animated-Cursor-Library/upload/main/downloads) and commit the files to `main`. Detailed instructions and exact sizes are in [BINARY-ASSET-UPLOAD.md](BINARY-ASSET-UPLOAD.md).
 
-Run `SYNC-TO-GITHUB.bat` from the extracted local repository package on a Windows PC after installing Git for Windows and GitHub CLI and authenticating with `gh auth login`. The script targets the existing repository and does not create a duplicate.
+Until this manual upload is complete, the relative download links shown in the README are planned paths and will not yet download.
+
+## After upload
+
+1. Open [the downloads folder](https://github.com/kosandra0/Animated-Cursor-Library/tree/main/downloads).
+2. Confirm that all four ZIPs are listed with the exact filenames above.
+3. Open each file entry and confirm GitHub displays its archive.
+4. Check the root README and downloads index to confirm the relative links resolve.
+
+## Scope and limitations
+
+This update commits UTF-8 documentation and JSON metadata only. It does not add the ZIP binaries, extract or upload individual ANI/CUR assets, or publish a GitHub release.
+
+QUIETFORM's supplied package reports structural validation for all 360 ANI and 360 CUR files. That is file-format/parser validation, not a live Windows 10/11 installation or playback test. Its numbered installer is included in the archive but has not been smoke-tested on a physical Windows machine in the build environment.
+
+No blanket redistribution license is asserted for any collection. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md) and [asset provenance](docs/ASSET-PROVENANCE.md).
