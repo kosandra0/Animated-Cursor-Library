@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 · 2026-11-12
+
+- Added QUIETFORM as the fourth cursor collection: 20 professional themes, 360 animated ANI files and 360 static CUR alternatives.
+- Expanded the collection catalog from three packs / 26 theme folders / 415 ANI files to four packs / 46 theme folders / 775 ANI files.
+- Documented QUIETFORM's 18 cursor types per family, numbered Windows installer, restore utility, 32/48/64 px embedded sizes, 2,448 animation frames and structural-validation limitations.
+- Reworked the root README into four detailed ZIP-package sections.
+- Updated the downloads index, collection guide, cursor-role reference, provenance notes, upload instructions and publishing status.
+- Kept all four ZIP binaries out of this documentation commit so the repository maintainer can upload the four ZIP files manually.
+
 ## 1.0.0 · 2026-11-12
 
 - Created the dedicated Animated-Cursor-Library GitHub repository.
