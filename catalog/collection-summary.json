@@ -5,7 +5,7 @@
     "collections": 4,
     "theme_folders": 46,
     "ani_files": 775,
-    "cur_files": 360,
+    "documented_cur_files": 360,
     "downloadable_zip_archives": 4
   },
   "collections": [
@@ -16,7 +16,6 @@
       "archive_bytes": 22131398,
       "themes": 16,
       "ani_files": 240,
-      "cur_files": 0,
       "roles_per_theme": 15,
       "reference": "https://01a1cc83-38e3-7b7d-baeb-71ddbce0c760.arena.site/"
     },
@@ -27,7 +26,6 @@
       "archive_bytes": 3751130,
       "themes": 5,
       "ani_files": 75,
-      "cur_files": 0,
       "roles_per_theme": 15,
       "reference": "https://01a1cc5a-9188-7399-bb27-6279ce3926ee.arena.site/",
       "note": "Five-theme subset of a six-theme generator."
@@ -39,7 +37,6 @@
       "archive_bytes": 4864633,
       "themes": 5,
       "ani_files": 100,
-      "cur_files": 0,
       "roles_per_theme": 20,
       "reference": null
     },
@@ -63,5 +60,5 @@
       "validation_note": "Package reports structural validation for all 360 ANI and 360 CUR files; no physical Windows runtime test is claimed."
     }
   ],
-  "validation_note": "Counts reflect the inventories of the four supplied ZIP archives. QUIETFORM CUR files are static alternatives and are not included in the ANI total."
+  "validation_note": "ANI counts reflect all four supplied archive inventories. The 360 CUR files are specifically documented in QUIETFORM; CUR contents in the other three archives have not been separately inventoried."
 }
